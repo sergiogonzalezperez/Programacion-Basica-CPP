@@ -4,11 +4,34 @@
 
 Este temario está diseñado para un curso introductorio de programación en C++ y cubre los conceptos fundamentales que todo principiante debe aprender.
 
-## 1. Introducción a la Programación y C++
-- ¿Qué es la programación?
-- Historia y aplicaciones de C++
-- Instalación y configuración del entorno de desarrollo (IDE)
-- Primer programa en C++: "Hola Mundo"
+#1. Introducción a la Programación y C++
+# ¿Qué es la programación?
+La programación es el proceso de crear instrucciones que una computadora puede seguir para ejecutar tareas específicas. Estas instrucciones se escriben usando lenguajes de programación, como C++, y permiten automatizar cálculos, procesos, y resolver problemas de manera eficiente.
+
+# Historia y aplicaciones de C++
+C++ es un lenguaje de programación creado por Bjarne Stroustrup en 1979 como una extensión del lenguaje C, añadiendo características de programación orientada a objetos. Es ampliamente utilizado en el desarrollo de software de sistemas, videojuegos, aplicaciones de alto rendimiento, controladores y simulaciones científicas debido a su eficiencia y flexibilidad.
+
+# Instalación y configuración del entorno de desarrollo (IDE)
+Para programar en C++, es necesario instalar un compilador (como GCC, MinGW o el de Visual Studio) y un entorno de desarrollo (IDE) como Code::Blocks, Visual Studio, Dev-C++, o incluso editores como VS Code con extensiones de C++. La configuración típica implica instalar el IDE, seleccionar el compilador y crear un proyecto nuevo para comenzar a escribir código.
+
+# Primer programa en C++: "Hola Mundo"
+El clásico primer programa en cualquier lenguaje es uno que muestra el mensaje "Hola Mundo" en pantalla. En C++, se escribe así:
+
+//Nombre de Estudiante
+//Fecha de Creación
+//Breve Descripción del Código
+//Nombre de Archivo.CPP
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hola Mundo" << endl;
+    return 0;
+}
+
+
+Este programa incluye la biblioteca estándar de entrada/salida (`iostream`), utiliza el espacio de nombres estándar (`std`), y define una función principal (`main`) que imprime el mensaje y retorna un valor. Compilar y ejecutar este programa en tu IDE te permitirá verificar que todo está correctamente instalado y funcionando.
+
 
 ## 2. Fundamentos del Lenguaje C++
 - Estructura básica de un programa en C++
