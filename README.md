@@ -21,7 +21,9 @@ El clásico primer programa en cualquier lenguaje es uno que muestra el mensaje 
 //Fecha de Creación  
 //Breve Descripción del Código  
 //Nombre de Archivo.CPP  
-#include ```<iostream>  
+```cpp
+#include <iostream>
+``` 
 using namespace std;  
 int main() {  
     cout << "Hola Mundo" << endl;  
