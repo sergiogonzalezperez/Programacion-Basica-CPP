@@ -17,19 +17,18 @@ Para programar en C++, es necesario instalar un compilador (como GCC, MinGW o el
 # Primer programa en C++: "Hola Mundo"
 El clásico primer programa en cualquier lenguaje es uno que muestra el mensaje "Hola Mundo" en pantalla. En C++, se escribe así:
 
+```cpp
 //Nombre de Estudiante  
 //Fecha de Creación  
 //Breve Descripción del Código  
 //Nombre de Archivo.CPP  
-```cpp
 #include <iostream>
-``` 
 using namespace std;  
 int main() {  
     cout << "Hola Mundo" << endl;  
     return 0;  
 }  
-
+```
 
 Este programa incluye la biblioteca estándar de entrada/salida (`iostream`), utiliza el espacio de nombres estándar (`std`), y define una función principal (`main`) que imprime el mensaje y retorna un valor. Compilar y ejecutar este programa en tu IDE te permitirá verificar que todo está correctamente instalado y funcionando.
 
