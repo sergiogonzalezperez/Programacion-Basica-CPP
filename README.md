@@ -1,78 +1,73 @@
 # Programación Básica C++
 
-🧩 Módulo 1: Paradigmas de Programación en C++
+# Temario de Programación Básica en C++
 
-🎯 Objetivos del módulo:
-Comprender qué es un paradigma de programación.
-Reconocer los principales paradigmas compatibles con C++.
-Aplicar un ejemplo básico de programación estructurada y otro de programación orientada a objetos.
+Este temario está diseñado para un curso introductorio de programación en C++ y cubre los conceptos fundamentales que todo principiante debe aprender.
 
-📘 Teoría: ¿Qué es un paradigma de programación?
-Un paradigma de programación es un estilo o enfoque para resolver problemas a través del código. Cada paradigma propone una manera distinta de estructurar los programas. C++ es un lenguaje multiparadigma, lo que significa que permite programar en diferentes estilos:
+## 1. Introducción a la Programación y C++
+- ¿Qué es la programación?
+- Historia y aplicaciones de C++
+- Instalación y configuración del entorno de desarrollo (IDE)
+- Primer programa en C++: "Hola Mundo"
 
-✅ Principales paradigmas en C++:
-Paradigma estructurado (procedural):
-Organiza el código en funciones.
-Usa estructuras de control como if, for, while.
-Es el estilo clásico del lenguaje C.
-Paradigma orientado a objetos (POO):
-Utiliza clases y objetos.
-Se basa en los conceptos de encapsulamiento, herencia y polimorfismo.
-C++ fue uno de los primeros lenguajes en combinar programación estructurada y POO.
-(Opcionalmente: funcional y genérico):
-Con C++ moderno (C++11 en adelante), también se pueden aplicar elementos de programación funcional (como lambda) y genérica (con plantillas).
+## 2. Fundamentos del Lenguaje C++
+- Estructura básica de un programa en C++
+- Sintaxis básica y comentarios
+- Tipos de datos primitivos (int, float, char, bool)
+- Variables y constantes
 
-🧪 Ejemplo 1: Programación Estructurada en C++
-// Ejemplo de programación estructurada: calcular el área de un rectángulo
+## 3. Operadores
+- Operadores aritméticos
+- Operadores relacionales
+- Operadores lógicos
+- Operadores de asignación
 
-#include <iostream>
-using namespace std;
-float calcularArea(float base, float altura) {
-    return base * altura;
-}
-int main() {
-    float base = 5.0;
-    float altura = 3.0;
-    float area = calcularArea(base, altura);
-    cout << "El área del rectángulo es: " << area << endl;
-    return 0;
-}
+## 4. Entrada y Salida de Datos
+- Uso de `cin` y `cout`
+- Formateo de salida
 
-🧪 Ejemplo 2: Programación Orientada a Objetos en C++
-// Ejemplo de POO: clase Rectangulo con método para calcular el área
-#include <iostream>
-using namespace std;
+## 5. Control de Flujo
+- Sentencias condicionales (`if`, `else`, `switch`)
+- Sentencias de repetición (`for`, `while`, `do-while`)
+- Uso de `break` y `continue`
 
-class Rectangulo {
-private:
-    float base;
-    float altura;
+## 6. Funciones
+- Definición y declaración de funciones
+- Parámetros y valores de retorno
+- Variables locales y globales
+- Paso de parámetros por valor y por referencia
 
-public:
-    Rectangulo(float b, float h) {
-        base = b;
-        altura = h;
-    }
+## 7. Arreglos y Vectores
+- Definición y uso de arreglos unidimensionales
+- Introducción a arreglos multidimensionales
+- Uso de la biblioteca `<vector>`
 
-    float calcularArea() {
-        return base * altura;
-    }
-};
+## 8. Cadenas de Caracteres
+- Manejo básico de cadenas (`char[]` y `std::string`)
+- Funciones comunes para cadenas
 
-int main() {
-    Rectangulo r(5.0, 3.0);
-    cout << "El área del rectángulo es: " << r.calcularArea() << endl;
-    return 0;
-}
+## 9. Estructuras de Datos Simples
+- Definición y uso de `struct`
+- Uso básico de punteros
 
-🧠 Preguntas de reflexión:
+## 10. Programación Modular
+- Separación en archivos fuente y cabecera (`.cpp` y `.h`)
+- Compilación y enlace de proyectos
 
-¿Qué diferencias observas entre los dos estilos de programación?
+## 11. Manejo de Archivos
+- Lectura y escritura de archivos de texto
+- Uso de `fstream`
 
-¿Cuál te parece más fácil de entender y mantener?
+## 12. Introducción a la Programación Orientada a Objetos (POO)
+- Conceptos básicos: clase, objeto, atributos, métodos
+- Encapsulamiento y acceso a miembros
+- Constructores y destructores
 
-¿Cuándo convendría usar uno sobre el otro?
+## 13. Buenas Prácticas de Programación
+- Comentarios y documentación
+- Identación y estilo de código
+- Manejo de errores y depuración básica
 
-✅ Tareas sugeridas:
-
-Investiga qué otros lenguajes son multiparadigma como C++.
+## 14. Ejercicios y Proyectos Finales
+- Ejercicios prácticos por tema
+- Proyecto final integrador
