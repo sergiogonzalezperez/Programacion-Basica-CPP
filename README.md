@@ -34,7 +34,6 @@ int main() {
     float base = 5.0;
     float altura = 3.0;
     float area = calcularArea(base, altura);
-
     cout << "El área del rectángulo es: " << area << endl;
     return 0;
 }
