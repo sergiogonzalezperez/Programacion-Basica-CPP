@@ -23,7 +23,6 @@ El clásico primer programa en cualquier lenguaje es uno que muestra el mensaje 
 //Nombre de Archivo.CPP  
 #include <iostream>  
 using namespace std;  
-  
 int main() {  
     cout << "Hola Mundo" << endl;  
     return 0;  
