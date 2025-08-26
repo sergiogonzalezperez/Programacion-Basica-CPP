@@ -1,4 +1,4 @@
-# Programación Básica C++
+# Programación C++
 
 # Temario de Programación Básica en C++
 
