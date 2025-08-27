@@ -37,6 +37,7 @@ Este programa incluye la biblioteca estándar de entrada/salida (`iostream`), ut
 Sintaxis básica y comentarios
 La sintaxis básica de C++ incluye el uso de llaves {} para delimitar bloques de código, punto y coma ; al final de cada instrucción y la posibilidad de agregar comentarios.
 
+
 Comentario de una línea:
 // Este es un comentario de una línea
 
@@ -48,6 +49,7 @@ Code
    varias líneas */
 Ejemplo:
 
+```cpp
 C++
 #include <iostream>
 
@@ -56,6 +58,7 @@ int main() {
     std::cout << "¡Hola, mundo!" << std::endl; // Comentario al final de línea
     return 0;
 }
+```
 Tipos de datos primitivos (int, float, char, bool)
 int: Enteros (números sin decimales)
 float: Números decimales
