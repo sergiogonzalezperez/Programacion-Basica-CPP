@@ -102,10 +102,111 @@ int main() {
 }
 
 ## 3. Operadores
-- Operadores aritméticos
-- Operadores relacionales
-- Operadores lógicos
-- Operadores de asignación
+# Operadores en C++
+
+## Operadores aritméticos
+
+Se utilizan para realizar operaciones matemáticas básicas.
+
+| Operador | Descripción      | Ejemplo        |
+|----------|------------------|----------------|
+| +        | Suma             | a + b          |
+| -        | Resta            | a - b          |
+| *        | Multiplicación   | a * b          |
+| /        | División         | a / b          |
+| %        | Módulo (resto)   | a % b          |
+
+**Ejemplo:**
+```cpp
+#include <iostream>
+int main() {
+    int a = 10, b = 3;
+    std::cout << "Suma: " << a + b << std::endl;
+    std::cout << "Resta: " << a - b << std::endl;
+    std::cout << "Multiplicación: " << a * b << std::endl;
+    std::cout << "División: " << a / b << std::endl;
+    std::cout << "Módulo: " << a % b << std::endl;
+    return 0;
+}
+```
+
+## Operadores relacionales
+
+Permiten comparar valores.
+
+| Operador | Descripción   | Ejemplo    |
+|----------|---------------|------------|
+| ==       | Igual         | a == b     |
+| !=       | Distinto      | a != b     |
+| <        | Menor         | a < b      |
+| >        | Mayor         | a > b      |
+| <=       | Menor o igual | a <= b     |
+| >=       | Mayor o igual | a >= b     |
+
+**Ejemplo:**
+```cpp
+#include <iostream>
+int main() {
+    int a = 5, b = 7;
+    std::cout << (a == b) << std::endl; // 0 (false)
+    std::cout << (a != b) << std::endl; // 1 (true)
+    std::cout << (a < b) << std::endl;  // 1 (true)
+    std::cout << (a > b) << std::endl;  // 0 (false)
+    std::cout << (a <= b) << std::endl; // 1 (true)
+    std::cout << (a >= b) << std::endl; // 0 (false)
+    return 0;
+}
+```
+
+## Operadores lógicos
+
+Se utilizan para combinar expresiones lógicas.
+
+| Operador | Descripción   | Ejemplo           |
+|----------|---------------|-------------------|
+| &&       | AND (y)       | a && b            |
+| \|\|     | OR (o)        | a || b            |
+| !        | NOT (no)      | !a                |
+
+**Ejemplo:**
+```cpp
+#include <iostream>
+int main() {
+    bool x = true, y = false;
+    std::cout << (x && y) << std::endl; // 0 (false)
+    std::cout << (x || y) << std::endl; // 1 (true)
+    std::cout << (!x) << std::endl;     // 0 (false)
+    return 0;
+}
+```
+
+## Operadores de asignación
+
+Sirven para asignar valores a las variables.
+
+| Operador | Descripción          | Ejemplo         |
+|----------|----------------------|-----------------|
+| =        | Asignación           | a = b           |
+| +=       | Suma y asigna        | a += b  (a = a + b) |
+| -=       | Resta y asigna       | a -= b  (a = a - b) |
+| *=       | Multiplica y asigna  | a *= b  (a = a * b) |
+| /=       | Divide y asigna      | a /= b  (a = a / b) |
+| %=       | Módulo y asigna      | a %= b  (a = a % b) |
+
+**Ejemplo:**
+```cpp
+#include <iostream>
+int main() {
+    int a = 5;
+    a += 3; // a = 8
+    a -= 2; // a = 6
+    a *= 4; // a = 24
+    a /= 6; // a = 4
+    a %= 3; // a = 1
+    std::cout << "Resultado final: " << a << std::endl;
+    return 0;
+}
+```
 
 ## 4. Entrada y Salida de Datos
 - Uso de `cin` y `cout`
