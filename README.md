@@ -34,10 +34,69 @@ Este programa incluye la biblioteca estándar de entrada/salida (`iostream`), ut
 
 
 ## 2. Fundamentos del Lenguaje C++
-- Estructura básica de un programa en C++
-- Sintaxis básica y comentarios
-- Tipos de datos primitivos (int, float, char, bool)
-- Variables y constantes
+Sintaxis básica y comentarios
+La sintaxis básica de C++ incluye el uso de llaves {} para delimitar bloques de código, punto y coma ; al final de cada instrucción y la posibilidad de agregar comentarios.
+
+Comentario de una línea:
+// Este es un comentario de una línea
+
+Comentario de varias líneas:
+
+Code
+/* Este es un 
+   comentario de 
+   varias líneas */
+Ejemplo:
+
+C++
+#include <iostream>
+
+int main() {
+    // Imprime un saludo en pantalla
+    std::cout << "¡Hola, mundo!" << std::endl; // Comentario al final de línea
+    return 0;
+}
+Tipos de datos primitivos (int, float, char, bool)
+int: Enteros (números sin decimales)
+float: Números decimales
+char: Un solo carácter
+bool: Valores lógicos (true o false)
+Ejemplo:
+
+C++
+#include <iostream>
+
+int main() {
+    int edad = 20;            // entero
+    float altura = 1.75;      // decimal
+    char inicial = 'S';       // carácter
+    bool esEstudiante = true; // lógico
+
+    std::cout << "Edad: " << edad << std::endl;
+    std::cout << "Altura: " << altura << std::endl;
+    std::cout << "Inicial: " << inicial << std::endl;
+    std::cout << "¿Es estudiante?: " << esEstudiante << std::endl;
+    return 0;
+}
+Variables y constantes
+Variable: Espacio en memoria cuyo valor puede cambiar.
+Constante: Espacio en memoria cuyo valor no cambia durante la ejecución.
+Ejemplo:
+
+C++
+#include <iostream>
+
+int main() {
+    int numero = 10;           // Variable
+    const float PI = 3.1416;   // Constante
+
+    numero = 20; // Se puede modificar
+    // PI = 3.14; // Error: no se puede modificar una constante
+
+    std::cout << "Número: " << numero << std::endl;
+    std::cout << "Valor de PI: " << PI << std::endl;
+    return 0;
+}
 
 ## 3. Operadores
 - Operadores aritméticos
